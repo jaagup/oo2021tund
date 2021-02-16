@@ -10,6 +10,9 @@ class Vektor{
 	public Vektor korruta(double koef){
 		return new Vektor(x*koef, y*koef);
 	}
+	public String toString(){
+		return "("+x+", "+y+")";
+	}
 }
 //Tehke prooviklass kahe vektoriga
 //Katsetage käsklusi ja kuvage tulemus
