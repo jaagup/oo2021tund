@@ -18,4 +18,24 @@ public class KalkulaatoriTestid{
 		k.vajutus("5");
 		assertEquals("35", k.kuvatav());
 	}
+	@Test
+    public void sisestus3() {
+        k.vajutus("2");
+        k.vajutus("0");
+        k.vajutus("0");
+        k.vajutus("5");
+        assertEquals("2005", k.kuvatav());
+		k.vajutus("C");
+		assertEquals("0", k.kuvatav());
+    }
+	@Test
+	public void arvutus1(){
+		k.vajutus("3");		
+		k.vajutus("+");		
+		assertEquals("3", k.kuvatav());
+		k.vajutus("2");
+		assertEquals("2", k.kuvatav());		
+		k.vajutus("=");		
+		assertEquals("5", k.kuvatav());
+	}
 }

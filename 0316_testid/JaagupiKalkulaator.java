@@ -3,8 +3,10 @@ public class JaagupiKalkulaator implements KalkulaatoriLiides{
 	public void vajutus(String nupp){
 		if(nupp.equals("C")){
 			paneel="0";
-		}	else {
+		}	else if(paneel.equals("0")){
 			paneel=nupp;
+		} else {
+			paneel+=nupp;
 		}
 	}
 	public String kuvatav(){
