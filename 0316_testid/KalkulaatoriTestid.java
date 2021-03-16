@@ -12,4 +12,10 @@ public class KalkulaatoriTestid{
 		k.vajutus("2");
 		assertEquals("2", k.kuvatav());
 	}
+	@Test
+	public void sisestus2(){
+		k.vajutus("3");
+		k.vajutus("5");
+		assertEquals("35", k.kuvatav());
+	}
 }
