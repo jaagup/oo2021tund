@@ -1,7 +1,7 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 public class KalkulaatoriTestid{
-	KalkulaatoriLiides k=null;
+	KalkulaatoriLiides k=new JaagupiKalkulaator();
 	@Before
 	public void puhasta(){
 		k.vajutus("C");
