@@ -1,0 +1,22 @@
+Pinge vooluvõrgus 220 Volti
+Müügil 40W pirn
+
+Mitu oomi on pirni takistus?
+Mitu amprit läheb põlemise ajal pirnist läbi
+
+R=U/I
+N=U*I
+
+I=N/U   40/220=0,18..
+       220/0,18 = 1210 oomi 
+	   
+Leia takistus ja vool 100W 220V pirni juures
+
+     100/220=0,45 A
+	 220/0,45= 488 oomi
+	 
+Arvutage 100W nominaalvõimsusega pirni võimsus
+
+* 240 V juures  0,49A, 118W
+* 200 V juures  0,40A,  82W
+
