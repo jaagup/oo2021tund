@@ -20,3 +20,14 @@ Arvutage 100W nominaalvõimsusega pirni võimsus
 * 240 V juures  0,49A, 118W
 * 200 V juures  0,40A,  82W
 
+Rööpühendus
+
+50 oomi
+30 oomi
+
+Kogutakistus 19 oomi
+
+1/((1/50)+(1/30))
+
+1/(0.02+0.033) 
+
