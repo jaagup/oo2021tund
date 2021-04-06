@@ -9,9 +9,20 @@ Klassid:
      void lisa(Lylitatav l);
      void seisund(boolean sees)
   Lyliti implements Lylitatav, Voolujuht
-  Roopyhendus implements Voolujuht
+  Pooraja implemens Lylitatav
+  Hulgiyhendus implements Voolujuht
+    Roopyhendus
+    Jadayhendus
     
 Looge liidesed ja klassid. Tekitage kahe lülitiga rööpühendus. 
 Katsetage, et ühendus juhiks vaid siis, kui vähemalt üks lüliti on sees
 
 9:21
+
+Lisage Jadayhenduse klass
+Koostage vooluahel vastavalt joonisele 1
+
+10:45
+
+Tutvuge Poorajaga
+Koostage vekselühendus vastavalt joonisele 2
