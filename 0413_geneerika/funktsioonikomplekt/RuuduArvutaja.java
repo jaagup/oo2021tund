@@ -3,3 +3,9 @@ public class RuuduArvutaja implements FunktsiooniLiides<Integer, Integer>{
         return sisend*sisend;
     }
 }
+
+/*
+ Koostage Arvutaja, mis tagastab iga teksti kahekordselt
+   (lisaülesanne - kordade arv antakse ette konstruktoris)
+ Katsetage peaprogrammis koos puhvriga
+*/

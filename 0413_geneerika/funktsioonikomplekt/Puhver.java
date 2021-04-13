@@ -6,6 +6,9 @@ public class Puhver<S, V> implements FunktsiooniLiides<S, V>{
         arvutaja=fliides;
     }
     public V arvuta(S sisend){
-        return arvutaja.arvuta(sisend);
+        if(!hoidla.containsKey(sisend)){
+            hoidla.put(sisend, arvutaja.arvuta(sisend));
+        }
+        return hoidla.get(sisend);
     }
 }
